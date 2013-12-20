@@ -1,0 +1,17 @@
+!!!
+%html(ng-app ng-controller="ResourcesCtrl")
+  %head
+    %script(src="/resources.js")
+    %script(src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js")
+    %link(rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css")
+    %link(rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css")
+    %script(src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js")
+
+    %title {{layout.title}}
+
+  %body
+    #header
+      
+
+    #content
+      =yield
